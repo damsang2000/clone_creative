@@ -1935,10 +1935,19 @@ body:not(.tt-boxed) .page-header-inner,
   bottom: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 50% 50%;
+  background-color: transparent;
+  animation: animation_brand 5s infinite linear;
 }
-
+@keyframes animation_brand {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 /* Make image to background image */
 #page-header.ph-bg-image .ph-image {
   position: absolute;
