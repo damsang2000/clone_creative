@@ -13,3 +13,8 @@
 
 .tt-section-inner {
 }
+
+.custom-opacity::before {
+    opacity: 0.1 !important;
+    background-color: azure !important;
+  }
