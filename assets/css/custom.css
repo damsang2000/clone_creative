@@ -15,6 +15,9 @@
 }
 
 .custom-opacity::before {
-    opacity: 0.1 !important;
-    background-color: azure !important;
-  }
+  opacity: 0.1 !important;
+  background-color: azure !important;
+}
+.ph-subt-parallax {
+  color: #7b7a7a !important;
+}
