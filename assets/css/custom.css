@@ -21,3 +21,66 @@
 .ph-subt-parallax {
   color: #7b7a7a !important;
 }
+.custom-title-detail {
+  color: aliceblue !important;
+}
+.pi-list-heading {
+  color: aliceblue !important;
+}
+.pi-list-cont {
+  color: aliceblue !important;
+}
+.custom-make {
+  color: aliceblue !important;
+}
+
+.custom-circle:hover text {
+  fill: #fff;
+}
+.custom-height {
+  height: 3200px !important;
+  margin-bottom: 100px !important;
+}
+/* .custom-height img{
+    height: 50% !important;
+} */
+.custom-height .ttgr-item-inner {
+  height: 100% !important;
+}
+.custom-height .ttgr-item-inner .tt-gallery-item {
+  height: 100% !important;
+}
+.custom-height .ttgr-item-inner .tt-gallery-item .tt-gallery-item-inner {
+  height: 100% !important;
+}
+.custom-height
+  .ttgr-item-inner
+  .tt-gallery-item
+  .tt-gallery-item-inner
+  .tt-gallery-image-wrap {
+  height: 100% !important;
+}
+.custom-height
+  .ttgr-item-inner
+  .tt-gallery-item
+  .tt-gallery-item-inner
+  .anim-zoomin-wrap {
+  height: 100% !important;
+}
+.custom-height
+  .ttgr-item-inner
+  .tt-gallery-item
+  .tt-gallery-item-inner
+  .tt-gallery-image-wrap
+  .tt-gallery-image {
+  height: 100% !important;
+}
+.magnetic-wrap {
+  height: 70px !important;
+}
+.tt-logo img {
+  max-height: 70px !important;
+}
+a {
+  text-decoration: none !important;
+}
