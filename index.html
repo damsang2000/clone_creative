@@ -60,7 +60,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/font/SVN-Gilroy Light.otf">
+    <link rel="stylesheet" href="/assets/font/SVN-Gilroy Light.otf" />
     <!-- Secondary/Alter font -->
     <!-- Libs and Plugins CSS -->
     <link rel="stylesheet" href="./assets/vendor/normalize/normalize.min.css" />
@@ -84,6 +84,8 @@
     <!-- Template master CSS -->
     <link rel="stylesheet" href="./assets/css/helper.css" />
     <link rel="stylesheet" href="./assets/css/theme.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
   </head>
   <body
     id="body"
@@ -101,7 +103,7 @@
           <div class="ptr-prel-content">
             <!-- Hint: You may need to change the img height and opacity to match your logo type. You can do this from the "theme.css" file (find: ".ptr-prel-image"). -->
             <img
-              src="./assets/img/AlphaCreative_Logo_dark.svg"
+              src="./assets/img/AlphaCreative_Logo_white.svg"
               class="ptr-prel-image tt-logo-light"
               alt="Logo"
               width="200"
@@ -383,13 +385,7 @@
 							============================= -->
               <div class="ph-image">
                 <div class="ph-image-inner">
-                  <img
-                    src="assets/img/AlphaCreative_Logo_white.svg"
-                    alt="Image"
-                    width="50"
-                    height="50"
-                    class="logo_custom"
-                  />
+                  <img src="assets/img/panner.png" alt="Image" />
                 </div>
               </div>
               <!-- End page header image -->
@@ -921,11 +917,7 @@
                         Annual Report
                       </p>
 
-                      <div class="tt-btn tt-btn-link">
-                        <a href="dummy-page.html" data-hover="Read More"
-                          >Read More</a
-                        >
-                      </div>
+                   
                     </div>
                     <!-- /.tt-accordion-content -->
                   </div>
@@ -948,11 +940,11 @@
                         Social Media Planning & Management
                       </p>
 
-                      <div class="tt-btn tt-btn-link">
+                      <!-- <div class="tt-btn tt-btn-link">
                         <a href="dummy-page.html" data-hover="Read More"
                           >Read More</a
                         >
-                      </div>
+                      </div> -->
                     </div>
                     <!-- /.tt-accordion-content -->
                   </div>
@@ -974,11 +966,11 @@
                         Video Post Production<br />
                         Tone & Voice Creation
                       </p>
-                      <div class="tt-btn tt-btn-link">
+                      <!-- <div class="tt-btn tt-btn-link">
                         <a href="dummy-page.html" data-hover="Read More"
                           >Read More</a
                         >
-                      </div>
+                      </div> -->
                     </div>
                     <!-- /.tt-accordion-content -->
                   </div>
@@ -1001,11 +993,11 @@
                         Slogans
                       </p>
 
-                      <div class="tt-btn tt-btn-link">
+                      <!-- <div class="tt-btn tt-btn-link">
                         <a href="dummy-page.html" data-hover="Read More"
                           >Read More</a
                         >
-                      </div>
+                      </div> -->
                     </div>
                     <!-- /.tt-accordion-content -->
                   </div>
@@ -1029,7 +1021,10 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-            <div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150">
+            <div
+              class="tt-section padding-top-xlg-150 padding-bottom-xlg-150"
+              style="background-color: #f5f5f5 !important"
+            >
               <div class="tt-section-inner">
                 <!-- Begin scrolling text
 								========================== 
@@ -1224,7 +1219,9 @@
               <div class="footer-col tt-align-center-left">
                 <div class="footer-col-inner">
                   <!-- You can use whatever button or link here -->
-                  <div class="tt-btn tt-btn-link">
+                  <div
+                    class="tt-btn tt-btn-link custom-link"
+                  >
                     <a href="#" class="scroll-to-top" data-hover="Back to top"
                       >Back to top</a
                     >

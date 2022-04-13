@@ -1,0 +1,15 @@
+.text-gray {
+  color: #7b7a7a !important;
+}
+.tt-accordion-content > p {
+  color: #7b7a7a !important;
+}
+/* .tt-btn-link::after > a[data-hover="Read More"] {
+  content: none;
+}
+.tt-btn-link > a[data-hover="Read More"] {
+  display: none !important;
+} */
+
+.tt-section-inner {
+}
