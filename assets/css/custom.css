@@ -38,7 +38,7 @@
   fill: #fff;
 }
 .custom-height {
-  height: 3200px !important;
+  height: 2000px !important;
   margin-bottom: 100px !important;
 }
 /* .custom-height img{
@@ -85,8 +85,19 @@ a {
   text-decoration: none !important;
 }
 .content {
-  padding: 120px !important;
+  padding: 200px !important;
 }
 .anim-fadeinup > p {
   font-size: 25px !important;
+}
+.custom-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill !important;
+  object-position: 50% 50%;
 }
