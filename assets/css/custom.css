@@ -79,8 +79,14 @@
   height: 70px !important;
 }
 .tt-logo img {
-  max-height: 70px !important;
+  max-height: 80px !important;
 }
 a {
   text-decoration: none !important;
+}
+.content {
+  padding: 120px !important;
+}
+.anim-fadeinup > p {
+  font-size: 25px !important;
 }
