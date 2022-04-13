@@ -3600,7 +3600,7 @@ body.tt-boxed .tt-wrap .tt-grid.ttgr-gap-4 {
 }
 @media (min-width: 768px) {
   .tt-grid.ttgr-gap-4 .ttgr-item-inner {
-    margin: 0 3vw 6vw 3vw;
+    margin: 0 2vw 6vw 2vw;
   }
 }
 @media (max-width: 768px) {

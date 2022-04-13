@@ -101,3 +101,8 @@ a {
   object-fit: fill !important;
   object-position: 50% 50%;
 }
+@media (min-width: 768px) {
+  .custom-width {
+    margin: 0 2vw 6vw 2vw !important;
+  }
+}
