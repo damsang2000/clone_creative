@@ -109,3 +109,6 @@ a {
 .carousel-fade {
   transition: opacity 0s 1s !important;
 }
+.tt-demo-btn {
+  display: none !important;
+}
