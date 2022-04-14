@@ -258,8 +258,6 @@ body.tt-transition #page-transition {
   display: block;
   z-index: 99999;
 }
-
-/* Transition overlay */
 body.tt-transition .ptr-overlay {
   position: fixed;
   display: block;
@@ -291,7 +289,16 @@ body.tt-transition .ptr-prel-content {
 
 .ptr-prel-image {
   max-height: 96px; /* You may need to change the img height to match your logo type! */
-  opacity: 0.2; /* You may need to change the opacity as well! */
+  /* opacity: 1; You may need to change the opacity as well! */
+  animation: animation_logo 4s infinite linear;
+}
+@keyframes animation_logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 /* ----------------------------------------------------------------------------------------- *
