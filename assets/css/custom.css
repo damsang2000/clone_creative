@@ -166,9 +166,13 @@ body {
 .project-info-list,
 .tt-pn-subtitle,
 .ph-share-ghost,
+.pgi-category,
 .tt-pagination {
   font-family: gilroyregular !important;
 }
 .tt-pn-link {
   font-family: grandslang !important;
+}
+.tt-accordion-content > p {
+  font-family: gilroyregular !important;
 }
