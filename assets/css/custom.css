@@ -118,3 +118,17 @@ a {
 .anim-image-parallax-inner {
   height: 100% !important;
 }
+@font-face {
+  font-family: grandslang;
+  src: url("/assets/img/SVN-GrandSlang/SVN-GrandSlang-Roman.otf");
+}
+.ph-title-parallax {
+  font-family: grandslang !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: grandslang !important;
+}
