@@ -112,3 +112,9 @@ a {
 .tt-demo-btn {
   display: none !important;
 }
+.anim-image-parallax-wrap {
+  height: 100% !important;
+}
+.anim-image-parallax-inner {
+  height: 100% !important;
+}
