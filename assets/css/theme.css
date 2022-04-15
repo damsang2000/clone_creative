@@ -195,9 +195,13 @@ hr {
 
 /* Body font
 ============= */
+@font-face {
+  font-family: gilroyregular;
+  src: url("/assets/font/SVN-Gilroy\ Regular.otf");
+}
 body {
-  /* font-family: "Poppins", sans-serif; */
-  font-family: "SVN-Gilroy Light", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* font-family: gilroyregular !important; */
 }
 
 /* Secondary font
