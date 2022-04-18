@@ -239,3 +239,6 @@ body {
 .tt-ci-icon {
   color: #7b7a7a !important;
 }
+.image {
+  object-position: 50% 50% !important;
+}
