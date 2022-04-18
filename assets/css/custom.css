@@ -222,7 +222,7 @@ body {
 }
 .tt-form-group > label {
   display: block !important;
-  color: #7b7a7a;
+  color: black !important;
 }
 .not-hide-cursor {
   color: black !important;
@@ -230,6 +230,12 @@ body {
 .bi-item-categories a {
   color: #7b7a7a !important;
 }
-.tt-link {
+.tt-contact-info .tt-link {
   color: black !important;
+}
+.custom-noelement {
+  color: black !important;
+}
+.tt-ci-icon {
+  color: #7b7a7a !important;
 }
