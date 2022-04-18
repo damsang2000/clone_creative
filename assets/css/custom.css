@@ -200,3 +200,21 @@ body {
 .text-center {
   text-align: center !important;
 }
+.pli-title > a:hover {
+  color: black !important;
+}
+.bi-item-title > a:hover {
+  color: black !important;
+}
+.bi-item-title > a ::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.bi-item-title > a {
+  position: relative;
+}
