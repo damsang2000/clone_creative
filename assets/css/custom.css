@@ -169,7 +169,7 @@ body {
 .pgi-category,
 .anim-fadeinup,
 .ph-share-text,
-.bi-item-meta>span,
+.bi-item-meta > span,
 .bi-item-categories a,
 .tt-pagination {
   font-family: gilroyregular !important;
@@ -219,4 +219,17 @@ body {
 }
 .bi-item-title > a {
   position: relative;
+}
+.tt-form-group > label {
+  display: block !important;
+  color: #7b7a7a;
+}
+.not-hide-cursor {
+  color: black !important;
+}
+.bi-item-categories a {
+  color: #7b7a7a !important;
+}
+.tt-link {
+  color: black !important;
 }
