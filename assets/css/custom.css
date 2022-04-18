@@ -242,3 +242,7 @@ body {
 .image {
   object-position: 50% 50% !important;
 }
+.prev,
+.next {
+  display: block !important;
+}
