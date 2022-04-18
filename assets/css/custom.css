@@ -169,6 +169,8 @@ body {
 .pgi-category,
 .anim-fadeinup,
 .ph-share-text,
+.bi-item-meta>span,
+.bi-item-categories a,
 .tt-pagination {
   font-family: gilroyregular !important;
 }
