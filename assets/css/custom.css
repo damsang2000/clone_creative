@@ -167,6 +167,8 @@ body {
 .tt-pn-subtitle,
 .ph-share-ghost,
 .pgi-category,
+.anim-fadeinup,
+.ph-share-text,
 .tt-pagination {
   font-family: gilroyregular !important;
 }
@@ -175,4 +177,24 @@ body {
 }
 .tt-accordion-content > p {
   font-family: gilroyregular !important;
+}
+.anim-fadeinup > p {
+  color: black !important;
+}
+/* .ph-title-parallax {
+  z-index:inherit  !important;
+} */
+
+.ph-title-parallax {
+  font-size: 60px !important;
+}
+.anim-fadeinup {
+  font-size: 16px !important;
+  text-align: center !important;
+}
+.anim-fadeinup > .tt-accordion-heading {
+  text-align: left !important;
+}
+.anim-fadeinup > .tt-accordion-content {
+  text-align: left !important;
 }
