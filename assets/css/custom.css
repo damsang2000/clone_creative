@@ -178,6 +178,7 @@ body {
 .bi-item-meta > span,
 .bi-item-categories a,
 .tt-blog-post-content p,
+.font-custom,
 .tt-pagination {
   font-family: gilroyregular !important;
 }
