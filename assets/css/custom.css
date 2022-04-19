@@ -177,6 +177,7 @@ body {
 .ph-meta-published,
 .bi-item-meta > span,
 .bi-item-categories a,
+.tt-blog-post-content p,
 .tt-pagination {
   font-family: gilroyregular !important;
 }
@@ -253,4 +254,7 @@ body {
 }
 .ph-log .ph-title-parallax {
   color: #fff !important;
+}
+.tt-blog-post-content p {
+  color: #7b7a7a !important;
 }
