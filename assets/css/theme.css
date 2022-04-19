@@ -666,9 +666,9 @@ h6 {
 .tt-heading.tt-heading-stroke .tt-heading-title {
   font-weight: bold;
   font-weight: 800;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
+  -webkit-text-fill-color: black;
 }
 
 /* If "text-gray" is used */
@@ -678,7 +678,7 @@ h6 {
 
 /* If Firefox */
 body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
-  -webkit-text-stroke-width: 2px;
+  /* -webkit-text-stroke-width: 2px; */
 }
 
 /* tt-Headings positions 
@@ -730,7 +730,7 @@ body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
 }
 @media (min-width: 1025px) {
   .tt-heading.tt-heading-xlg.tt-heading-stroke .tt-heading-title {
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-width: 1px; */
   }
 }
 .tt-heading.tt-heading-xlg .tt-heading-subtitle {
@@ -746,7 +746,7 @@ body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
 }
 @media (min-width: 1025px) {
   .tt-heading.tt-heading-xxlg.tt-heading-stroke .tt-heading-title {
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-width: 1px; */
   }
 }
 .tt-heading.tt-heading-xxlg .tt-heading-subtitle {
