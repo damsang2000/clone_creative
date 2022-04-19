@@ -16,6 +16,7 @@
 
 .custom-opacity::before {
   opacity: 0.1 !important;
+  height: 100% !important;
   background-color: azure !important;
 }
 .ph-subt-parallax {
@@ -73,6 +74,9 @@
   .tt-gallery-item-inner
   .tt-gallery-image-wrap
   .tt-gallery-image {
+  height: 100% !important;
+}
+.pgi-image {
   height: 100% !important;
 }
 .magnetic-wrap {
@@ -169,6 +173,8 @@ body {
 .pgi-category,
 .anim-fadeinup,
 .ph-share-text,
+.ph-category,
+.ph-meta-published,
 .bi-item-meta > span,
 .bi-item-categories a,
 .tt-pagination {
@@ -208,18 +214,6 @@ body {
 .bi-item-title > a:hover {
   color: black !important;
 }
-.bi-item-title > a ::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: black;
-}
-.bi-item-title > a {
-  position: relative;
-}
 .tt-form-group > label {
   display: block !important;
   color: black !important;
@@ -245,4 +239,18 @@ body {
 .prev,
 .next {
   display: block !important;
+}
+.ph-category,
+.ph-meta-published {
+  color: #fff !important;
+}
+
+.published {
+  color: #7b7a7a !important;
+}
+.tt-blog-post-tags a {
+  color: #7b7a7a !important;
+}
+.ph-log .ph-title-parallax {
+  color: #fff !important;
 }
